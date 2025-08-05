@@ -2,24 +2,6 @@
   "name": "portnotify",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nnadijoshuac/portnotify.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nnadijoshuac/portnotify/issues"
-  },
-  "homepage": "https://github.com/Nnadijoshuac/portnotify#readme",
-  "description": "",
-  "dependencies": {
-    "@vercel/node": "^5.3.11",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
-  }
+  "license": "MIT",
+  "type": "module"
 }

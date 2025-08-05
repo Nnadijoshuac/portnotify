@@ -1,12 +1,10 @@
-// api/notify.js
-
 export default async function handler(req, res) {
     if (req.method !== "POST") {
       return res.status(405).json({ message: "Method Not Allowed" });
     }
   
     const { timestamp, url, userAgent } = req.body;
-    const RESEND_KEY = process.env.RESEND_API_KEY; // Safe key from Vercel env
+    const RESEND_KEY = process.env.RESEND_API_KEY; 
   
     try {
       const response = await fetch("https://api.resend.com/emails", {
