@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "functions": {
+      "api/notify.js": {
+        "runtime": "nodejs18.x"
+      }
+    },
+    "routes": [
+      {
+        "src": "/api/notify",
+        "dest": "/api/notify.js"
+      }
+    ]
+  }
+  
